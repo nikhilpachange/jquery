@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel {
+    max-width: 600px;
+    margin: 50px auto;
+    position: relative;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+button {
+    background: #007bff;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+button:hover {
+    background: #0056b3;
+}
